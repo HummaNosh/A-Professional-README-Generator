@@ -27,4 +27,4 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 
-Walk Through Video Link: 
+Walk Through Video Link: https://drive.google.com/file/d/1spaiHMhn6zHLLgUe5YKVwKpfzXWj1CZh/view
