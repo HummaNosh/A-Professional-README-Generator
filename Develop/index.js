@@ -73,6 +73,8 @@ init();
 
 // Generate readme below...
 
+// Generating separate links to the table of contents using a tag..
+
 const GenREADME = ({
   Badge,
   title,
@@ -93,24 +95,49 @@ ${description}
 
 ### Table of contents
 
+
 *[Installation] 
-${installation}
+(#installation)
+
 *[Usage] 
-${usage}
+(#usage)
+
 *[license] 
-${license}
+(#license)
+
 *[Contributions]
-${contributions}
+(#contributions)
+
 *[tests] 
+(#tests)
+
+#### Installation Information
+<a name ="installation"> </a>
+${installation}
+
+#### Usage Information
+<a name ="usage"> </a>
+${usage}
+
+#### License Information
+<a name ="license"> </a>
+${license}
+
+#### Contributions
+<a name ="contributions"> </a>
+${contributions}
+
+#### Tests Information
+<a name ="tests"> </a>
 ${tests}
 
-#### Questions
+##### Questions
 
-Any questions? Send me a direct email on ${email}. 
+Any questions for me? Send me a direct email on ${email}.
 You can also visit my Github profile here www.github.com/${github}
 `;
 
-// Pulling license pictures
+// Pulling licenses badge pictures
 
 function getLicenseBadge() {
   switch (answers.license) {
