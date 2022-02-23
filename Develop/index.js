@@ -96,19 +96,15 @@ ${description}
 # Table of contents
 
 
-* [Installation] (#installation)
+* [Installation](#installation)
 
-#####[Usage] 
-(#usage)
+* [Usage](#usage)
 
-#####[[license] 
-(#license)
+* [license](#license)
 
-#####[[Contributions]
-(#contributions)
+* [Contributions](#contributions)
 
-#####[[tests] 
-(#tests)
+* [tests](#tests)
 
 ### Installation Information
 <a name ="installation"> </a>
@@ -139,7 +135,7 @@ You can also visit my Github profile here www.github.com/${github}
 // Pulling licenses badge pictures
 
 function getLicenseBadge() {
-  switch (answers.license) {
+  switch (choices.license) {
     case ["Apache 2.0"]:
       Badge = "(https://opensource.org/licenses/Apache-2.0)";
     case "MIT":
@@ -155,6 +151,7 @@ function getLicenseBadge() {
       Badge =
         "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
   }
+  return Badge;
 }
 
 // HWY R MY BADGES IMAGES NOT APPEARING??
