@@ -7,8 +7,8 @@ noshine
 # Table of contents
 
 
-#####[Installation] 
-(installation)
+<a name ="installation"> </a>
+
 
 #####[Usage] 
 (#usage)
@@ -23,12 +23,12 @@ noshine
 (#tests)
 
 ### Installation Information
-<a name ="installation"> </a>
-shrek
+("#installation")
+is studying
 
 ### Usage Information
 <a name ="usage"> </a>
-forver
+a course at
 
 ### License Information
 <a name ="license"> </a>
@@ -36,13 +36,13 @@ Apache 2.0
 
 ### Contributions
 <a name ="contributions"> </a>
-sdjosid
+the uni of bham
 
 ### Tests Information
 <a name ="tests"> </a>
-sdjsod
+in full stack
 
 # Questions
 
-Any questions for me? Send me a direct email on dksjds.
-You can also visit my Github profile here www.github.com/sdsd
+Any questions for me? Send me a direct email on developer@yahoo.co.uk.
+You can also visit my Github profile here www.github.com/hummanosh
