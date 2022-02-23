@@ -96,8 +96,7 @@ ${description}
 # Table of contents
 
 
-<a name ="installation"> </a>
-
+* [Installation] (#installation)
 
 #####[Usage] 
 (#usage)
@@ -112,7 +111,7 @@ ${description}
 (#tests)
 
 ### Installation Information
-("#installation")
+<a name ="installation"> </a>
 ${installation}
 
 ### Usage Information

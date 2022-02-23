@@ -7,8 +7,7 @@ noshine
 # Table of contents
 
 
-<a name ="installation"> </a>
-
+* [Installation] (#installation)
 
 #####[Usage] 
 (#usage)
@@ -23,12 +22,12 @@ noshine
 (#tests)
 
 ### Installation Information
-("#installation")
-is studying
+<a name ="installation"> </a>
+is styding
 
 ### Usage Information
 <a name ="usage"> </a>
-a course at
+at the uni of 
 
 ### License Information
 <a name ="license"> </a>
@@ -36,13 +35,13 @@ Apache 2.0
 
 ### Contributions
 <a name ="contributions"> </a>
-the uni of bham
+bham
 
 ### Tests Information
 <a name ="tests"> </a>
-in full stack
+learning full stack
 
 # Questions
 
-Any questions for me? Send me a direct email on developer@yahoo.co.uk.
+Any questions for me? Send me a direct email on develoer@yahoo.co.uk.
 You can also visit my Github profile here www.github.com/hummanosh
