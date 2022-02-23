@@ -33,6 +33,10 @@ const questions = () => {
       message: "Which of the following licenses if required?",
       choices: [
         {
+          name: "No License",
+          value: "None",
+        },
+        {
           name: "Apache 2.0",
           value:
             "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",

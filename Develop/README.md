@@ -1,8 +1,8 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 # Title 
-Weather app
+Weather APP
 # Description Of Application 
-A 5 day forecast for any country
+A 5 day weather forecast website
 
 # Table of contents
 
@@ -19,23 +19,23 @@ A 5 day forecast for any country
 
 ### Installation Information
 <a name ="installation"> </a>
-none, just enter city name
+None, just enter city name
 
 ### Usage Information
 <a name ="usage"> </a>
-None
+Not much
 
 ### License Information
 <a name ="license"> </a>
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ### Contributions
 <a name ="contributions"> </a>
-Only one contributor
+Only one, me
 
 ### Tests Information
 <a name ="tests"> </a>
-No Tests
+Not many
 
 # Questions
 
