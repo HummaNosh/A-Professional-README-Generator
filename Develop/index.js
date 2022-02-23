@@ -28,9 +28,10 @@ const questions = () => {
       message: "What usage information is required?",
     },
     {
-      type: "input",
+      type: "list",
       name: "license",
-      message: "Enter necessary license information",
+      message: "Which of the following licenses if required?",
+      choices: ["Apache 2.0", "MIT", "Mozilla", "GNU GPL v3", "Eclipse 1.0"],
     },
     {
       type: "input",
@@ -43,23 +44,92 @@ const questions = () => {
       message:
         "Enter information about any tests running currently in the application",
     },
+    {
+      type: "input",
+      name: "email",
+      message: "Enter your developers Email address",
+    },
+    {
+      type: "input",
+      name: "github",
+      message: "Enter your Github user name",
+    },
   ]);
 };
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
 
-// TODO: Create a function to initialize app
+// write read me file and log any errors if so..
+
 const init = () => {
   questions().then((answers) => {
-    const HTMLstuff = GenHTML(answers);
+    const ReadmeStuff = GenREADME(answers);
 
-    fs.writeFile("index.html", HTMLstuff, (err) =>
-      err ? console.log(err) : console.log("yahoo")
+    fs.writeFile("README.md", ReadmeStuff, (err) =>
+      err ? console.log(err) : console.log("Woohoo! Read Me Generated!")
     );
   });
 };
 
-// Function call to initialize app
 init();
 
-// CREATE GEN HTML- LINK QS TO IT
+// Generate readme below...
+
+const GenREADME = ({
+  Badge,
+  title,
+  description,
+  installation,
+  usage,
+  license,
+  contributions,
+  tests,
+  email,
+  github,
+}) =>
+  `${Badge}
+# Title 
+${title}
+## Description Of Application 
+${description}
+
+### Table of contents
+
+*[Installation] 
+${installation}
+*[Usage] 
+${usage}
+*[license] 
+${license}
+*[Contributions]
+${contributions}
+*[tests] 
+${tests}
+
+#### Questions
+
+Any questions? Send me a direct email on ${email}. 
+You can also visit my Github profile here www.github.com/${github}
+`;
+
+// Pulling license pictures
+
+function getLicenseBadge() {
+  switch (answers.license) {
+    case "Apache 2.0":
+      Badge =
+        "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
+    case "MIT":
+      Badge =
+        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
+    case "Mozilla":
+      Badge =
+        "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
+    case "GNU GPL v3":
+      Badge =
+        "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
+    case "Eclipse 1.0":
+      Badge =
+        "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
+  }
+}
+
+// HWY R MY BADGES IMAGES NOT APPEARING??
