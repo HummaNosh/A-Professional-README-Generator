@@ -1,8 +1,8 @@
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 # Title 
-dddddddddd
+Weather app
 # Description Of Application 
-ssssssssssssssss
+A 5 day forecast for any country
 
 # Table of contents
 
@@ -19,25 +19,25 @@ ssssssssssssssss
 
 ### Installation Information
 <a name ="installation"> </a>
-tttttttttttttt
+none, just enter city name
 
 ### Usage Information
 <a name ="usage"> </a>
-gggggggggggggg
+None
 
 ### License Information
 <a name ="license"> </a>
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### Contributions
 <a name ="contributions"> </a>
-eeeeeeeee
+Only one contributor
 
 ### Tests Information
 <a name ="tests"> </a>
-wwwwwwwwwww
+No Tests
 
 # Questions
 
-Any questions for me? Send me a direct email on wwwwwwww.
-You can also visit my Github profile here www.github.com/weeeeeeeeeeee
+Any questions for me? Send me a direct email on hummanoshine@gmail.com.
+You can also visit my Github profile here www.github.com/hummanosh
