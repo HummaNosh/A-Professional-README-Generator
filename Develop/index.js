@@ -114,7 +114,7 @@ const GenREADME = ({
   email,
   github,
 }) =>
-  `${Badge}
+  `${license}
 # Title 
 ${title}
 # Description Of Application 
@@ -159,5 +159,4 @@ Any questions for me? Send me a direct email on ${email}.
 You can also visit my Github profile here www.github.com/${github}
 `;
 
-// HWY R MY BADGES IMAGES NOT APPEARING??
-// are my links working?
+// genrate BADGE TO GO AT THE TOP..
