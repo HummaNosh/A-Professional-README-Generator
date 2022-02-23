@@ -31,8 +31,35 @@ const questions = () => {
       type: "list",
       name: "license",
       message: "Which of the following licenses if required?",
-      choices: ["Apache 2.0", "MIT", "Mozilla", "GNU GPL v3", "Eclipse 1.0"],
+      choices: [
+        {
+          name: "Apache 2.0",
+          value:
+            "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+        },
+        {
+          name: "MIT",
+          value:
+            "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
+        },
+        {
+          name: "Mozilla",
+          value:
+            "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)",
+        },
+        {
+          name: "GNU GPL v3",
+          value:
+            "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)",
+        },
+        {
+          name: "Eclipse 1.0",
+          value:
+            "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)",
+        },
+      ],
     },
+
     {
       type: "input",
       name: "contributions",
@@ -131,29 +158,6 @@ ${tests}
 Any questions for me? Send me a direct email on ${email}.
 You can also visit my Github profile here www.github.com/${github}
 `;
-
-// Pulling licenses badge pictures
-
-function getLicenseBadge() {
-  switch (choices.license) {
-    case ["Apache 2.0"]:
-      Badge =
-        "[![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
-    case "MIT":
-      Badge =
-        "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
-    case "Mozilla":
-      Badge =
-        "[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)";
-    case "GNU GPL v3":
-      Badge =
-        "[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)";
-    case "Eclipse 1.0":
-      Badge =
-        "[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)";
-  }
-  return Badge;
-}
 
 // HWY R MY BADGES IMAGES NOT APPEARING??
 // are my links working?
