@@ -90,48 +90,48 @@ const GenREADME = ({
   `${Badge}
 # Title 
 ${title}
-## Description Of Application 
+# Description Of Application 
 ${description}
 
-### Table of contents
+# Table of contents
 
 
-*[Installation] 
-(#installation)
+#####[Installation] 
+(installation)
 
-*[Usage] 
+#####[Usage] 
 (#usage)
 
-*[license] 
+#####[[license] 
 (#license)
 
-*[Contributions]
+#####[[Contributions]
 (#contributions)
 
-*[tests] 
+#####[[tests] 
 (#tests)
 
-#### Installation Information
+### Installation Information
 <a name ="installation"> </a>
 ${installation}
 
-#### Usage Information
+### Usage Information
 <a name ="usage"> </a>
 ${usage}
 
-#### License Information
+### License Information
 <a name ="license"> </a>
 ${license}
 
-#### Contributions
+### Contributions
 <a name ="contributions"> </a>
 ${contributions}
 
-#### Tests Information
+### Tests Information
 <a name ="tests"> </a>
 ${tests}
 
-##### Questions
+# Questions
 
 Any questions for me? Send me a direct email on ${email}.
 You can also visit my Github profile here www.github.com/${github}
@@ -141,7 +141,7 @@ You can also visit my Github profile here www.github.com/${github}
 
 function getLicenseBadge() {
   switch (answers.license) {
-    case "Apache 2.0":
+    case ["Apache 2.0"]:
       Badge =
         "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)";
     case "MIT":
@@ -160,3 +160,4 @@ function getLicenseBadge() {
 }
 
 // HWY R MY BADGES IMAGES NOT APPEARING??
+// are my links working?
