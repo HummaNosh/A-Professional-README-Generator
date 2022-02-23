@@ -2,7 +2,7 @@
 # Title 
 Weather APP
 # Description Of Application 
-A 5 day weather forecast website
+A 5 day forecast of any country in the world..
 
 # Table of contents
 
@@ -11,19 +11,19 @@ A 5 day weather forecast website
 
 * [Usage](#usage)
 
-* [license](#license)
+* [License](#license)
 
 * [Contributions](#contributions)
 
-* [tests](#tests)
+* [Tests](#tests)
 
 ### Installation Information
 <a name ="installation"> </a>
-None, just enter city name
+None, just enter a city name
 
 ### Usage Information
 <a name ="usage"> </a>
-Not much
+Not many
 
 ### License Information
 <a name ="license"> </a>
@@ -35,7 +35,7 @@ Only one, me
 
 ### Tests Information
 <a name ="tests"> </a>
-Not many
+None
 
 # Questions
 

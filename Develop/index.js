@@ -107,7 +107,6 @@ init();
 // Generating separate links to the table of contents using a tag..
 
 const GenREADME = ({
-  Badge,
   title,
   description,
   installation,
@@ -131,11 +130,11 @@ ${description}
 
 * [Usage](#usage)
 
-* [license](#license)
+* [License](#license)
 
 * [Contributions](#contributions)
 
-* [tests](#tests)
+* [Tests](#tests)
 
 ### Installation Information
 <a name ="installation"> </a>
