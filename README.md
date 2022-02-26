@@ -27,6 +27,8 @@ WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 
 Preview of Readme :
+
+
 ![image](https://user-images.githubusercontent.com/93604239/155862723-da9470f0-0cda-44d6-9465-57ee8629832b.png)
 
 
